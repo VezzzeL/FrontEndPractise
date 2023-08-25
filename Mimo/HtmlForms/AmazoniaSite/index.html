@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Add Shipping Address</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Amazonia</h1>
+    <h3>Add a new shipping address</h3>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full name (First and Last name)</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="phoneNum">Phone number</label>
+            <br>
+            <input type="tel" id="phoneNum">
+        </fieldset>
+        <fieldset>
+            <legend>Address Information</legend>
+            <label for="country">Country</label>
+            <br>
+            <input type="text" id="country">
+            <br>
+            <label>Address</label>
+            <br>
+            <input type="text" placeholder="Street address or P.O. Box">
+            <br>
+            <input type="text" placeholder="Apt, suite, unit, building, floor">
+            <br>
+            <label for="city">City</label>
+            <br>
+            <input type="text" id="city">
+            <br>
+            <label for="state">State</label>
+            <br>
+            <input type="text" id="state">
+            <br>
+            <label for="zip">ZIP Code</label>
+            <br>
+            <input type="text" id="zip">
+            <input type="checkbox">My address does not have a ZIP code. <br>
+            <br>
+            <input type="checkbox">Use as my default address.
+        </fieldset>
+        <button>Add</button>
+    </form>
+</body>
+
+</html>
