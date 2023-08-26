@@ -1,0 +1,83 @@
+body {
+  font-family: Verdana;
+}
+
+#logo {
+  width: 40%;
+  margin-top: 10px;
+}
+
+ul,
+li {
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+
+a {
+  color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.rating {
+  color: gold;
+  font-size: 200%;
+}
+
+.def {
+  color: black;
+  font-size: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#location {
+  width: 100%;
+}
+
+.landscape-image {
+  position: relative;
+}
+
+#arrow {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  top: 10px;
+  right: 30px;
+  z-index: 1;
+}
+
+.about,
+.comments {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.user-dp {
+  width: 10%;
+  float: left;
+}
+
+.name {
+  display: inline;
+}
+
+.user-rating {
+  color: gold;
+}
+
+.user-comment {
+  color: black;
+  margin-top: 5px;
+  display: block;
+}
