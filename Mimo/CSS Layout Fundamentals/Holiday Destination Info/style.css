@@ -1,0 +1,33 @@
+img {
+  position: relative;
+  height: 70%;
+  border-radius: 10px;
+  left: -120px;
+  top: 30px;
+}
+
+#main {
+  display: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#more {
+  position: absolute;
+  float: right;
+  border: none;
+  background-color: indianred;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  top: 8px;
+  right: 10px;
+}
+
+.blurb {
+  position: relative;
+  text-align: justify;
+  max-width: calc(100% - 100px);
+  left: 50px;
+  right: 50px;
+}

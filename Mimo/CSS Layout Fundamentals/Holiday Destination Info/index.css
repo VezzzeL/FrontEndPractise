@@ -1,0 +1,18 @@
+body {
+  font-family: Cambria;
+}
+
+#banner {
+  height: 250px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  width: 300px;
+}
+
+#text {
+  font-size: 20px;
+}
