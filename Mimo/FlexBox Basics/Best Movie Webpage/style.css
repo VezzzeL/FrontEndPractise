@@ -1,0 +1,50 @@
+.item {
+  padding: 15px;
+  margin: 2px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+  border: 2px solid #dddddd;
+  color: #ffa600;
+}
+
+h1,
+.item {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Verdana;
+  text-decoration: underline;
+}
+
+button {
+  border-radius: 5px;
+  margin: 10px 5px;
+  font-weight: bold;
+  border: 1px solid darkgray;
+  background-color: #f9f9f9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.movie-list {
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  justify-content: center;
+}
