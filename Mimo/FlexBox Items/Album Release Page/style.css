@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(90deg, #abc6cc, #dbe6f6);
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 100;
+}
+
+.song {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  height: 20px;
+  background-color: #dfe6e9;
+  color: black;
+  font-size: 10px;
+}
+
+#album {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+#album img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 5px white;
+}
+
+#songlist {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#description {
+  flex: 1 0 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#album-metadata {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bonus {
+  flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+#body {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  height: auto;
+}
+
+h2 {
+  color: #34495e;
+}
+
+#wrapper {
+  border: 1px solid black;
+  height: 400px;
+  margin: 1%;
+  padding: 2%;
+}
+
+#times {
+  background-color: #34495e;
+}
+
+#events {
+  background-color: #7d3c98;
+  padding: 10px;
+}
