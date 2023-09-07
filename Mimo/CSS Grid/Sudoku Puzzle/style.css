@@ -1,0 +1,16 @@
+.grid-item {
+  text-align: center;
+  font-weight: bold;
+  color: #2980b9;
+  background-color: #d6eaf8;
+  margin: 2px;
+}
+
+h2 {
+  color: #2980b9;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+}
