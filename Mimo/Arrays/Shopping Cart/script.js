@@ -1,0 +1,13 @@
+const book = 40;
+const gardeningTools = 30;
+const headphones = 50;
+const mat = 25;
+const cart = [];
+const wishlist = [book, gardeningTools, headphones, mat];
+let item1 = wishlist.pop();
+const item2 = wishlist.pop();
+const total = item1 + item2;
+cart.push(item1, item2);
+console.log("Cart prices:");
+console.log(cart);
+console.log("Total: " + total);
