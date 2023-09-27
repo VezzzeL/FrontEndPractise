@@ -1,0 +1,15 @@
+function onNext() {
+  let ques = document.body.children[1].firstElementChild;
+  ques.innerHTML =
+    "What single digit appears most frequently between and including the numbers 1 and 1,000? Hint: look for a pattern!";
+  correctAns = 1;
+  let inputBox = ques.nextElementSibling;
+  inputBox.value = "";
+  let nextButton = inputBox.nextElementSibling.nextElementSibling;
+  nextButton.innerHTML = "End";
+  nextButton.onclick = () => {
+    document.body.innerHTML = "This page is under construction!";
+  };
+  let resP = nextButton.nextElementSibling;
+  resP.innerHTML = "";
+}
